@@ -1,0 +1,262 @@
+body {
+    background-color: #1e2024;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-wrapper{
+    background-color: #2B2D32;
+    height: 77px;
+    -moz-box-shadow: 1px 1px 3px 1px #101012;
+    -webkit-box-shadow: 1px 1px 3px 1px #101012;
+     box-shadow: 1px 1px 3px 1px #101012;
+    padding-left: 35px;
+}
+
+.logo {
+    padding-top: 12px;
+    padding-left: 30px;
+}
+
+#nav-mobile {
+    padding-right: 35px
+}
+
+.row .input-field {
+    float: right;
+    left: 230px;
+    top: -10px;
+}
+
+.row .input-field input {
+    color: white;
+}
+
+/*ASIDE---------------------------------------------*/
+.aside {
+    width: 26%;
+    float: left;
+}
+
+.main-container .row {
+    background-color: #2B2D32;
+}
+
+.main-container .band-info {
+    background-color: #2B2D32;
+    position: relative;
+}
+
+/*Band Info-------------------*/
+.main-container .aside .row .col .card .card-image img{
+    width: 100%;
+    height: auto;
+}
+
+.main-container .aside .row .col .card .card-image .band-info .col #follow {
+    float: right;
+    color: #FF6A48;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.main-container .aside .row .col .card .card-image .band-info .col .social-media {
+    background-color: #2B2D32;
+    width: 50%;
+    float: left;
+}
+
+
+#band-information {
+    color: #FF6A48;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+
+.main-container .aside .band-info .col_12 .info-container {
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+    margin-left: -15px;
+}
+
+.main-container .aside .band-info .col_12 .info-container .list {
+    color: #FF6A48;
+}
+
+/*BODY----------------------------------------------*/
+.main-container {
+    margin-top: 30px;
+}
+
+.display-info {
+    width: 72%;
+    background-color: #2B2D32;
+    float: right;
+    left: 20px;
+}
+
+/*h5 ABOUT*/
+.display-info .band-bio .about {
+    font-family: 'Montserrat', sans-serif;
+    color: #FF6A48;
+    font-size: 18px;
+}
+
+/*Band info*/
+.display-info .band-bio .description {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: justify;
+    font-size: 15px;
+}
+
+/*H5 UPCOMING EVENTS*/
+#concert-dates .upcoming{
+    color: #FF6A48;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+/*Events Info*/
+#table-info {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.bandName {
+    font-weight: bold;
+}
+
+.venueName {
+    color: rgb(28, 196, 70);
+}
+
+
+/*Tickets Button*/
+.tickets {
+    border-radius: 0.3em;
+    cursor: pointer;
+    background-color: transparent;
+    border: solid 1px #FF6A48;
+    font-family: 'Montserrat', sans-serif;
+    color: #FF6A48;
+    padding: 5px;
+}
+
+.tickets:hover {
+    color: rgb(28, 196, 70);
+    transition: 0.2s;
+    border: solid 1px rgb(28, 196, 70);
+}
+
+
+#button-add {
+    background-color: #FF6A48;
+    font-style: normal;
+    width: 40px;
+    height: 40px;
+    margin-left:10px;
+    margin-top: -10px;
+}
+
+
+#button-rest {
+    background-color: #FF6A48;
+    font-style: normal;
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+}
+
+    
+.material.icons {
+   
+    font-style: normal;
+}
+
+#counterNum {
+    font-size: 24px;
+    display: inline;
+    margin-left:10px;
+    background-color: tra;
+   
+}
+
+#buyButton {
+    margin-top: 35px;
+}
+
+
+/*MODAL STYLES*/
+
+.modal {
+    background-color: #2B2D32;
+}
+
+.modal-footer {
+    background-color: #000000;
+}
+
+.modalH4 {
+    color: rgb(28, 196, 70);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.redirect {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.modal-close {
+    color: #FF6A48;
+}
+
+.waves-effect {
+    border-radius: 0.3em;
+    cursor: pointer;
+    background-color: transparent;
+    border: solid 1px #FF6A48;
+    font-family: 'Montserrat', sans-serif;
+    color: #FF6A48;
+    margin-top: 20px;
+
+}
+
+.waves-effect:hover {
+    color: rgb(28, 196, 70);
+    transition: 0.2s;
+    background-color: transparent;
+    border: solid 1px rgb(28, 196, 70);
+
+}
+
+.rock {
+    margin-top:10px;
+}
+/*.modal-trigger {
+    color: rgb(28, 196, 70);
+    transition: 0.2s;
+    background-color: transparent;
+    border: solid 1px rgb(28, 196, 70);
+}*/
+
+/*Media Queries*/
+
+@media only screen and (max-width: 601px){
+    .nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+        /* height: 64px; */
+        line-height: 64px;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+        /* height: 64px; */
+        line-height: 64px;
+        float: right;
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bands you are following</title>
+    <link rel="shortcut icon" type="image/png" href="Images/rock.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles_follow.css" media="all" /> 
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <div class="nav-wrapper">
+                
+                    <a href="#" class="logoHeader"><img class="logo" src="Images/logo-header.png"/></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+                   
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="follow.html">Following</a></li>
+                    </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="follow.html">Following</a></li>
+        </ul>
+    </header>
+
+    
+    <main class="container main-container" id="container">
+        <p class="title">Bands you are following</p>
+        <div class="row" id="eachBand">
+            <!--<div class="card-image col lg12 col md6 col s3">
+                <img class="image" id="bandImage" src="https://photos.bandsintown.com/large/9124676.jpeg">
+                <p id="band-information" class="text">Name</p>
+            </div>
+            <div class="card-image col lg12 col md6 col s3">
+                <img class="image" id="bandImage" src="https://photos.bandsintown.com/large/7890964.jpeg">
+                <p id="band-information" class="text">Name</p>
+            </div>-->
+        </div>
+    </main>
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://kit.fontawesome.com/c7b286b32e.js" crossorigin="anonymous"></script>
+    <script src="follow.js"></script>
+    <script>
+    //COLLAPSIBLE MENU//
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            });
+    </script>
+
+</body>
+</html>
